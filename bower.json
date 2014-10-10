@@ -1,0 +1,44 @@
+{
+  "name": "source-han-sans-code-point-map-jp",
+  "version": "1.0.0",
+  "description": "Return Source Han Sans code point mappings for Japanese",
+  "keywords": [
+    "font",
+    "glyph",
+    "data",
+    "metadata",
+    "json",
+    "unicode",
+    "cid",
+    "map",
+    "mapping",
+    "code",
+    "code-point",
+    "integer",
+    "source-han-sans",
+    "japanese",
+    "ja",
+    "jp"
+  ],
+  "main": "scripts/source-han-sans-code-point-map-jp.js",
+  "homepage": "https://github.com/shinnn/source-han-sans-code-point-map-jp",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/source-han-sans-code-point-map-jp.git"
+  },
+  "authors": [
+    {
+      "name": "Shinnosuke Watanabe",
+      "url": "https://github.com/shinnn"
+    }
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "node_modules",
+    "scripts/source-han-sans-code-point-map-jp-cjs.js",
+    "package.json",
+    "component.json"
+  ]
+}

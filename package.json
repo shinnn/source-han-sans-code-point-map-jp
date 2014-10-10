@@ -1,0 +1,74 @@
+{
+  "name": "source-han-sans-code-point-map-jp",
+  "version": "0.0.0",
+  "description": "Return Source Han Sans code point mappings for Japanese",
+  "main": "./scripts/source-han-sans-code-point-map-jp-cjs.js",
+  "files": [
+    "LICENSE",
+    "scripts/source-han-sans-code-point-map-jp-cjs.js",
+    "source-han-sans-code-point-map-jp.json"
+  ],
+  "scripts": {
+    "test": "gulp test",
+    "coverage": "istanbul cover test.js",
+    "coveralls": "${npm_package_scripts_coverage} && istanbul-coveralls"
+  },
+  "author": {
+    "name": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinnn/source-han-sans-code-point-map-jp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shinnn/source-han-sans-code-point-map-jp/issues"
+  },
+  "homepage": "https://github.com/shinnn/source-han-sans-code-point-map-jp",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shinnn/source-han-sans-code-point-map-jp/blob/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "font",
+    "glyph",
+    "data",
+    "metadata",
+    "json",
+    "unicode",
+    "cid",
+    "map",
+    "mapping",
+    "code",
+    "code-point",
+    "integer",
+    "source-han-sans",
+    "japanese",
+    "ja",
+    "jp"
+  ],
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-footer": "^1.0.5",
+    "gulp-header": "^1.1.1",
+    "gulp-jscs": "^1.1.2",
+    "gulp-jshint": "^1.8.5",
+    "gulp-jsonlint": "^0.1.0",
+    "gulp-load-plugins": "^0.7.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-wrap": "^0.3.0",
+    "indent-string": "^1.1.0",
+    "istanbul": "^0.3.2",
+    "istanbul-coveralls": "^1.0.1",
+    "jshint-stylish": "^1.0.0",
+    "lodash": "^2.4.1",
+    "merge-stream": "^0.1.6",
+    "require-main": "^0.1.1",
+    "rimraf": "^2.2.8",
+    "source-han-sans-utf32-map-jp": "^1.0.0",
+    "tape": "^3.0.0",
+    "to-camel-case": "^0.2.1"
+  }
+}
