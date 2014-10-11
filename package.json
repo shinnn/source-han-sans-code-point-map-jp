@@ -1,6 +1,6 @@
 {
   "name": "source-han-sans-code-point-map-jp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Return Source Han Sans code point mappings for Japanese",
   "main": "./scripts/source-han-sans-code-point-map-jp-cjs.js",
   "files": [
